@@ -1,0 +1,186 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+/* Containers */
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+/* Sections */
+
+.white-section{
+    background-color: #fff;
+
+}
+
+.colored-section{
+    background-color: burlywood;
+    color: #fff;
+}
+
+
+
+/* Title Section */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Montserrat-Bold";
+}
+
+p {
+    color: #afafaf;
+}
+
+/* Heading */
+
+.big-heading {
+    font-family: 'Montserrat-Black';
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5
+}
+
+/* Navigation Bar */
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-Thin";
+}
+
+/* Downloads Buttons */
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+
+#title .container-fluid{
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+
+/* iPhone Image */
+
+.iPhone6-image {
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%
+}
+
+/* Features Section */
+
+#features {
+    position: relative;
+}
+
+.feature-icon {
+    color: brown;
+    margin-bottom: 1rem;
+}
+
+.feature-icon:hover {
+    color: burlywood;
+}
+
+.feature-label {
+    padding: 5%;
+}
+
+.feature-title {
+    font-family: "Montserrat-Bold";
+    font-size: 1.5rem;
+}
+
+/* Testimonials section */
+
+#testimonials {
+    background-color: brown;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Press section */
+
+#press {
+    background-color: brown;
+    padding-bottom: 3%;
+}
+
+.press-image {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing {
+    padding: 100px;
+}
+
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5
+}
+
+.pricing-title {
+    font-family: "Montserrat-Bold";
+    font-size: 1.5rem;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+
+
+/* Footer */
+
+.footer-icon {
+    margin: 10px 10px;
+}
+
+.copyright {
+    color: #afafaf;
+}
+
+@media(max-width: 1028px) {
+    .iPhone6-image {
+        position: static;
+        transform: rotate(0);
+    }
+    #title {
+        text-align: center;
+    }
+}
